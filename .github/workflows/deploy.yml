@@ -3,8 +3,8 @@ name: Deploy
 # Define when the workflow should run
 on:
   # Allow manual triggering of the workflow from the Actions tab
-  schedule:
-    - cron: "00 7 * * *"
+  #schedule:
+  #  - cron: "00 7 * * *"
   workflow_dispatch:
 
   # Allow inputs to be passed when manually triggering the workflow from the Actions tab
